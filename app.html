@@ -1,0 +1,112 @@
+
+<html>
+  <head>
+    
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">  
+  </head>
+  <body>
+    <div class="container">
+            <p>
+             <label for="new-task">add something to do</label>
+             <input id="new-task" type="text"><button>Add</button>
+            </p>
+      
+             <h3>Todo</h3>
+               <ul id="incomplete-tasks">
+                 <li>
+                   <input type="checkbox">
+                   <label>Fill water tank</label>
+                   <input type="text">
+                   <button class="edit">Edit</button>
+                   <button class="delete">Delete</button>
+                   <select class="form" id="exampleFormControlSelect1">
+                      <option>...</option>
+                      <option>doing</option>
+                      <option>On hold</option>
+                    </select>
+                  </li>
+
+                  <li >
+                   <input type="checkbox">
+                   <label>Make more coffee</label>
+                   <input type="text" value="Make more coffee">
+                   <button class="edit">Edit</button>
+                   <button class="delete">Delete</button>
+                   <select class="form" id="exampleFormControlSelect1">
+                     <option>...</option>
+                     <option>doing</option>
+                     <option>On hold</option>
+                    </select>
+                  </li>
+                </ul>
+      
+              <h3>On hold</h3>
+                 <ul id="completed-tasks">
+                   <li>
+                     <input type="checkbox" checked>
+                     <label>Make coffee</label>
+                     <input type="text">
+                     <button class="edit">Edit</button>
+                     <button class="delete">Delete</button>
+                     <select class="form" id="exampleFormControlSelect1">
+                       <option>...</option>
+                       <option>doing</option>
+                     </select>
+                    </li>
+                  </ul>
+
+               <h3>Doing</h3>
+                 <ul id="doing-tasks">
+                    <li>
+                     <label>(Re)fill beans</label>
+                     <input type="text">
+                     <button class="edit">Edit</button>
+                     <button class="delete">Delete</button>
+                     <label for="exampleFormControlSelect1"></label>
+                     <select class="form" id="exampleFormControlSelect1">
+                        <option>...</option>
+                        <option>Done</option>
+                        <option>Failed</option>
+                     </select>
+
+                    </li>
+                  </ul>
+
+      
+                <h3>Done</h3>
+                 <ul id="done-tasks">
+                   <li>
+                     <label>Get new coffee machine</label>
+                     <input type="text">
+                     <button class="edit">Edit</button>
+                     <button class="delete">Delete</button>
+                     <label for="exampleFormControlSelect1"></label>
+                     <select class="form" id="exampleFormControlSelect1">
+                       <option>...</option>
+                       <option>Done</option>
+                       <option>Failed</option>
+                     </select>
+                   </li>
+                  </ul>
+
+
+                <h3>Failed</h3>
+                 <ul id="failed-tasks">
+                   <li>
+                     <label>Turn old coffee machine off and on again</label>
+                     <input type="text">
+                     <button class="edit">Edit</button>
+                     <button class="delete">Delete</button>
+                    </li>
+                    <li>
+                     <label>Repair old coffee machine</label>
+                     <input type="text">
+                     <button class="edit">Edit</button>
+                     <button class="delete">Delete</button>
+                    </li>
+                  </ul>
+     </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
